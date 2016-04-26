@@ -1,15 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>com.edoyun.pivot</groupId>
 	<artifactId>pivot-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-
 	<name>pivot-parent</name>
-	<url>http://maven.apache.org</url>
-
+	<description>一个集设备控制、任务分派、任务调度如一体的、以业务规则为核心的分阶段事件驱动架构（Stage Event Driven Architecture，SEDA ）</description>
+	<url>https://github.com/edoyun/pivot</url>
 	<!-- Properties -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,7 +35,6 @@
 		<tapestry.version>5.4.1</tapestry.version>
 		<shiro.version>1.2.4</shiro.version>
 	</properties>
-
 	<dependencyManagement>
 		<!-- Dependencies -->
 		<dependencies>
@@ -379,5 +376,19 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	<organization>
+		<url>https://github.com/edoyun</url>
+		<name>edoyun group</name>
+	</organization>
+	<scm>
+		<url>https://kaoding@github.com/edoyun/pivot.git</url>
+		<connection>scm:git:https://kaoding@github.com/edoyun/pivot.git</connection>
+	</scm>
+	<developers>
+		<developer>
+			<id>lijiehua</id>
+			<name>李结华</name>
+			<email>41830859@qq.com</email>
+		</developer>
+	</developers>
 </project>
