@@ -384,11 +384,4 @@
 		<url>https://kaoding@github.com/edoyun/pivot.git</url>
 		<connection>scm:git:https://kaoding@github.com/edoyun/pivot.git</connection>
 	</scm>
-	<developers>
-		<developer>
-			<id>lijiehua</id>
-			<name>李结华</name>
-			<email>41830859@qq.com</email>
-		</developer>
-	</developers>
 </project>
