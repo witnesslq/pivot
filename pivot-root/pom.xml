@@ -5,11 +5,11 @@
 	<packaging>pom</packaging>
 	<name>pivot-root</name>
 	<modules>
+		<module>../pivot-parent</module>
 		<module>../pivot-core</module>
 		<module>../pivot-persist</module>
 		<module>../pivot-service</module>
 		<module>../pivot-web</module>
-		<module>../pivot-parent</module>
 	</modules>
 	<groupId>com.edoyun.pivot</groupId>
 	<version>1.0-SNAPSHOT</version>
