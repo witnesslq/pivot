@@ -1,28 +1,40 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  
-  <parent>
-	  <groupId>com.edoyun.pivot</groupId>
-	  <artifactId>pivot-parent</artifactId>
-	  <version>1.0-SNAPSHOT</version>
-	  <relativePath>../pivot-parent/pom.xml</relativePath>
-  </parent>
-  
-  <artifactId>pivot-web</artifactId>
-  <packaging>war</packaging>
-  
-  <name>pivot-web</name>
-  
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-    </dependency>
-  </dependencies>
-  
-  <build>
-    <finalName>pivot-web</finalName>
-  </build>
-  
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.edoyun.pivot</groupId>
+		<artifactId>pivot-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../pivot-parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>pivot-web</artifactId>
+	<packaging>war</packaging>
+
+	<name>pivot-web</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>pivot-web</finalName>
+	</build>
+
 </project>
