@@ -7,10 +7,6 @@
 
 - [Documentation Home](https://github.com/edoyun/pivot/wiki)
 
-## Download
-
-http://repo1.maven.org/maven2/com/edoyun/pivot/
-
 ## Maven
 
 ```xml
