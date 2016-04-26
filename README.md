@@ -11,8 +11,8 @@
 
 ```xml
 <dependency>
-    <groupId>com.edoyun</groupId>
-    <artifactId>pivot</artifactId>
+    <groupId>com.edoyun.pivot</groupId>
+    <artifactId>pivot-xxxx</artifactId>
     <version>x.x.x</version>
 </dependency>
 ```
