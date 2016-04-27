@@ -14,9 +14,5 @@
 			<groupId>com.edoyun.pivot</groupId>
 			<artifactId>pivot-core</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
 	</dependencies>
 </project>
