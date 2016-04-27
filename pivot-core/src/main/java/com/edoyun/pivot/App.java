@@ -14,7 +14,7 @@ public class App {
 	public static void main(String[] args) {
 
 		System.out.println("Hello World!");
-		
+
 		if (logger.isDebugEnabled()) {
 			logger.debug("slf4j-log4j debug message");
 		}
