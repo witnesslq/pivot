@@ -12,7 +12,7 @@
 ```xml
 <dependency>
     <groupId>com.edoyun.pivot</groupId>
-    <artifactId>pivot-xxxx</artifactId>
+    <artifactId>pivot</artifactId>
     <version>x.x.x</version>
 </dependency>
 ```

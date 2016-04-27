@@ -3,13 +3,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.edoyun.pivot</groupId>
-	<artifactId>pivot-parent</artifactId>
+	<artifactId>pivot</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>pivot-parent</name>
+	<name>${project.artifactId}</name>
 	<description>一个集设备控制、任务分派、任务调度如一体的、以业务规则为核心的分阶段事件驱动架构（Stage Event Driven Architecture，SEDA ）</description>
 	<url>https://github.com/edoyun/pivot</url>
-	<!-- Properties -->
+	<!-- modules -->
+	<modules>
+		<module>pivot-core</module>
+		<module>pivot-persist</module>
+		<module>pivot-service</module>
+		<module>pivot-web</module>
+	</modules>
+	<!-- properties -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
@@ -37,8 +44,24 @@
 		<shiro.version>1.2.4</shiro.version>
 	</properties>
 	<dependencyManagement>
-		<!-- Dependencies -->
+		<!-- dependencies -->
 		<dependencies>
+			<!-- modules -->
+			<dependency>
+				<groupId>com.edoyun.pivot</groupId>
+				<artifactId>pivot-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.edoyun.pivot</groupId>
+				<artifactId>pivot-persist</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.edoyun.pivot</groupId>
+				<artifactId>pivot-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<!-- junit -->
 			<dependency>
 				<groupId>junit</groupId>

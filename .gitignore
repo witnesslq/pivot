@@ -1,20 +1,17 @@
-# package ignore
+# java ignore
 *.class
 *.jar
 *.war
 *.ear
-*.zip
-*.tar
-*.tar.gz
 
 # maven ignore
 target/
-/**/target/
+/*/target/
 
 # eclipse ignore
-*.classpath
-*.project
-*.settings/*
-/**/*.classpath
-/**/*.project
-/**/*.settings/*
+.classpath
+.project
+.settings/*
+/*/.classpath
+/*/.project
+/*/.settings/*
