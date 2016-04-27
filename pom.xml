@@ -8,7 +8,6 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>${project.artifactId}</name>
 	<description>一个集设备控制、任务分派、任务调度如一体的、以业务规则为核心的分阶段事件驱动架构（Stage Event Driven Architecture，SEDA ）</description>
-	<url>https://github.com/edoyun/pivot</url>
 	<!-- modules -->
 	<modules>
 		<module>pivot-core</module>
@@ -43,6 +42,7 @@
 		<tapestry.version>5.4.1</tapestry.version>
 		<shiro.version>1.2.4</shiro.version>
 	</properties>
+	<!-- dependencyManagement -->
 	<dependencyManagement>
 		<!-- dependencies -->
 		<dependencies>
@@ -400,17 +400,11 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<organization>
-		<url>https://github.com/edoyun</url>
-		<name>edoyun group</name>
-	</organization>
-	<scm>
-		<url>https://kaoding@github.com/edoyun/pivot.git</url>
-		<connection>scm:git:https://kaoding@github.com/edoyun/pivot.git</connection>
-	</scm>
+	<!-- build -->
 	<build>
-		<!-- 插件管理 不会引入插件 -->
+		<!--pluginManagement -->
 		<pluginManagement>
+			<!-- plugins -->
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
